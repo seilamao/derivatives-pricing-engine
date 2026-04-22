@@ -64,6 +64,20 @@ Historical volatility estimates (~80%+) were observed, consistent with elevated 
 
 ## Repository Structure
 
+derivatives-pricing-engine/
+├── figures/              # Generated plots and results
+├── report/               # Technical report (PDF)
+├── scripts/              # Experiments and analysis scripts
+├── src/
+│   ├── analytics/        # Black–Scholes pricing
+│   ├── data/             # Market data utilities
+│   ├── engines/          # Monte Carlo & variance reduction
+│   ├── greeks/           # Delta estimation
+│   ├── models/           # GBM simulation
+│   └── utils/
+├── requirements.txt
+└── README.md
+
 ---
 
 ## Example Results
@@ -84,3 +98,12 @@ Historical volatility estimates (~80%+) were observed, consistent with elevated 
 - Monte Carlo estimates converge to Black–Scholes at rate \(O(M^{-1/2})\)
 - High-volatility equities (ACHR, JOBY) exhibit elevated short-term option premiums (~9–10% of spot)
 - Option prices are highly sensitive to volatility estimation and maturity selection
+
+
+```markdown
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
