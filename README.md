@@ -64,6 +64,7 @@ Historical volatility estimates (~80%+) were observed, consistent with elevated 
 
 ## Repository Structure
 
+```text
 derivatives-pricing-engine/
 ├── figures/              # Generated plots and results
 ├── report/               # Technical report (PDF)
