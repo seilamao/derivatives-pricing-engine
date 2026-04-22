@@ -17,15 +17,16 @@ The project demonstrates theoretical understanding, numerical analysis, and prac
 
 Under the risk-neutral measure, the underlying stock follows Geometric Brownian Motion:
 
-\[
-dS_t = r S_t dt + \sigma S_t dW_t
-\]
+dS_t = r S_t dt + σ S_t dW_t
+
+where:
+- r is the risk-free rate  
+- σ is volatility  
+- W_t is standard Brownian motion  
 
 The no-arbitrage price of a European call option is:
 
-\[
-V_0 = e^{-rT} \mathbb{E}^{\mathbb{Q}}[(S_T - K)^+]
-\]
+V₀ = e^{-rT} E^Q[(S_T − K)^+]
 
 This expectation is computed:
 
