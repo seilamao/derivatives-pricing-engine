@@ -64,3 +64,23 @@ Historical volatility estimates (~80%+) were observed, consistent with elevated 
 
 ## Repository Structure
 
+---
+
+## Example Results
+
+### Monte Carlo Convergence
+![Convergence](figures/convergence.png)
+
+### Multi-Ticker Comparison
+![Comparison](figures/multi_ticker_snapshot.png)
+
+### Volatility Analysis
+![Volatility](figures/rolling_vol.png)
+
+---
+
+## Key Insights
+
+- Monte Carlo estimates converge to Black–Scholes at rate \(O(M^{-1/2})\)
+- High-volatility equities (ACHR, JOBY) exhibit elevated short-term option premiums (~9–10% of spot)
+- Option prices are highly sensitive to volatility estimation and maturity selection
